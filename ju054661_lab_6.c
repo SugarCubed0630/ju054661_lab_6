@@ -20,6 +20,7 @@ int search(int numbers[], int low, int high, int value)
   else
   {
     return search(numbers, value, mid + 1, high);
+  }
 }
 
 void printArray(int numbers[], int sz)
